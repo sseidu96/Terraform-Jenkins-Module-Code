@@ -17,3 +17,8 @@ variable "bundle_id" {
   type    = string
   default = "nano_3_0"
 }
+
+variable "key_pair_name" {
+type = string
+  default = "yum-key"
+}
