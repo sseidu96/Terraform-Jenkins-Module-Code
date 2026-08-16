@@ -1,0 +1,45 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform variables
+*.tfvars
+*.tfvars.json
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan files
+*.tfplan
+*.plan
+
+# Terraform lock file
+# Keep this file in Git for provider version consistency
+# .terraform.lock.hcl
+
+# Secrets / credentials
+*.pem
+*.key
+.env
+.env.*
+
+# SSH keys
+id_rsa
+id_rsa.pub
+*.ppk
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
